@@ -7,37 +7,37 @@
 
 <div class="section group">
   <div class="col span_1_of_3">
-  This is column 1
+  Logo
   </div>
   <div class="col span_1_of_3">
-  This is column 2
+  Header Left
   </div>
   <div class="col span_1_of_3">
-  This is column 3
-  </div>
-</div>
-
-<div class="section group">
-  <div class="col span_1_of_3">
-  This is column 1
-  </div>
-  <div class="col span_1_of_3">
-  This is column 2
-  </div>
-  <div class="col span_1_of_3">
-  This is column 3
+  Header Right
   </div>
 </div>
 
 <div class="section group">
   <div class="col span_1_of_3">
-  This is column 1
+  Main Body Left
   </div>
   <div class="col span_1_of_3">
-  This is column 2
+  Main Body Centre
   </div>
   <div class="col span_1_of_3">
-  This is column 3
+  Main Body Right
+  </div>
+</div>
+
+<div class="section group">
+  <div class="col span_1_of_3">
+  Footer
+  </div>
+  <div class="col span_1_of_3">
+  Footer
+  </div>
+  <div class="col span_1_of_3">
+  Footer
   </div>
 </div>
 
