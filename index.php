@@ -6,29 +6,26 @@
 <body>
 
 <div class="section group">
-  <div class="col span_1_of_3 header">
+
+
+
+
+
+  <div class="col span_3_of_3 header">
   <!-- Header Left -->
 
-  <img class="logo" src="Images/logonobg.png" alt="Company Logo" width="25%">
+<div class="header">
+  <img src="Images/logonobg.png" alt="Company Logo" width="10%">
+  <div class="header-right">
+    <a class="active" href="#home">Home</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+</div>
 
   </div>
 
-  <div class="col span_2_of_3 header">
-  <!-- Header Left -->
 
-<div class="linksdiv">    <!-- Links in Nav -->
-
-  <p> Home </p>
-
-  <p> Products </p>
-
-  <p> Contact </p>
-
-  <p> Cart </p>
-
- </div> <!-- End of Links in Nav -->
-
-  </div>
 
 
 
