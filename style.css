@@ -44,3 +44,20 @@
 	.col { margin: 1% 0 1% 0%;}
 	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
 }
+
+.headtitle {
+	color: blue;
+}
+
+.logo {
+	margin-left: 15%;
+}
+
+.header {
+	background-color: orangered;
+}
+
+.linksdiv {
+	text-align: right;
+	margin-right: 10%;
+}
