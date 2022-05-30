@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Bubble Bark</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,7 +16,7 @@
   <!-- Header Left -->
 
 <div class="header">
-  <img src="Images/logonobg.png" alt="Company Logo" width="10%">
+  <img src="Images/logonobg.png" class="logo" alt="Company Logo" width="10%">
   <div class="header-right">
     <a class="active" href="#home">Home</a>
     <a href="#contact">Contact</a>
