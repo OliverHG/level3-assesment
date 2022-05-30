@@ -18,9 +18,10 @@
 <div class="header">
   <img src="Images/logonobg.png" class="logo" alt="Company Logo" width="10%">
   <div class="header-right">
-    <a class="active" href="#home">Home</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
+    <a class="active navlinkf" href="#home">Home</a>
+    <a href="#contact" class="navlinkf">Products</a>
+    <a href="#about" class="navlinkf">About</a>
+    <a href="#about" class="navlinkf">Cart</a>
   </div>
 </div>
 
