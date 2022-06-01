@@ -50,7 +50,7 @@
 }
 
 .logo {
-	margin-left: 10%;
+	margin-left: 5%;
 }
 
 .header {
@@ -89,7 +89,7 @@
 
 /* Change the background color on mouse-over */
 .header a:hover {
-  background-color: #ddd;
+  background-color: #dec99b;
   color: black;
 }
 
@@ -117,6 +117,14 @@
 }
 
 .navlinkf {
-	margin-top: 60%;
+	margin-top: 25%;
 }
+
+.navtextf {
+	font-family: 'Sora', sans-serif;
+}
+
+
+
+
 

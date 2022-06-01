@@ -16,15 +16,15 @@
   <!-- Header Left -->
 
 <div class="header">
-  <img src="Images/logonobg.png" class="logo" alt="Company Logo" width="10%">
+  <img src="Images/logonobg.png" class="logo" alt="Company Logo" width="5%">
   <div class="header-right">
 
-    <div class="navlinksmarg">
+    <div class="navlinksmarg navtextf">
 
-    <a class="active navlinkf" href="#home">Home</a>
-    <a href="#contact" class="navlinkf">Products</a>
-    <a href="#about" class="navlinkf">About</a>
-    <a href="#about" class="navlinkf">Cart</a>
+    <a class="active navlinkf" href="#home"> Home </a>
+    <a href="#contact" class="navlinkf"> Products </a>
+    <a href="#about" class="navlinkf"> About </a>
+    <a href="#about" class="navlinkf"> Cart </a>
 
   </div>
 
