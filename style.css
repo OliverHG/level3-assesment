@@ -94,7 +94,7 @@
 }
 
 /* Style the active/current link*/
-.header a.active {
+.header a .active {
   background-color: dodgerblue;
   color: white;
 }
@@ -120,7 +120,7 @@
 	margin-top: 25%;
 }
 
-.navtextf {
+a {
 	font-family: 'Sora', sans-serif;
 }
 

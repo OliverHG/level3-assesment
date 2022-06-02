@@ -3,6 +3,7 @@
 <head>
   <title>Bubble Bark</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="hover.css">
 </head>
 <body>
 
@@ -19,9 +20,7 @@
   <img src="Images/logonobg.png" class="logo" alt="Company Logo" width="5%">
   <div class="header-right">
 
-    <div class="navlinksmarg navtextf">
-
-    <a class="active navlinkf" href="#home"> Home </a>
+    <a class="active hvr-bounce-to-top" href="#home"> Home </a>
     <a href="#contact" class="navlinkf"> Products </a>
     <a href="#about" class="navlinkf"> About </a>
     <a href="#about" class="navlinkf"> Cart </a>
