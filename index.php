@@ -20,10 +20,14 @@
   <img src="Images/logonobg.png" class="logo" alt="Company Logo" width="5%">
   <div class="header-right">
 
-    <a class="active hvr-bounce-to-top" href="#home"> Home </a>
-    <a href="#contact" class="navlinkf"> Products </a>
-    <a href="#about" class="navlinkf"> About </a>
-    <a href="#about" class="navlinkf"> Cart </a>
+<div class="linkpad">
+
+    <a class="hvr-bounce-to-top" href="#home"> Home </a>
+    <a class="hvr-skew" href="#contact"> Products </a>
+    <a class="hvr-bounce-to-top" href="#about"> About </a>
+    <a class="hvr-bounce-to-top" href="#about"> Cart </a>
+
+</div>
 
   </div>
 
