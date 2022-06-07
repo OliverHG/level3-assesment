@@ -22,10 +22,10 @@
 
 <div class="linkpad">
 
-    <a class="hvr-bounce-to-top" href="#home"> Home </a>
+    <a class="hvr-skew" href="#home"> Home </a>
     <a class="hvr-skew" href="#contact"> Products </a>
-    <a class="hvr-bounce-to-top" href="#about"> About </a>
-    <a class="hvr-bounce-to-top" href="#about"> Cart </a>
+    <a class="hvr-skew" href="#about"> About </a>
+    <a class="hvr-skew" href="#about"> Cart </a>
 
 </div>
 

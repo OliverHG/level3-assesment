@@ -93,11 +93,7 @@
   color: black;
 }
 
-/* Style the active/current link*/
-.header a .active {
-  background-color: dodgerblue;
-  color: white;
-}
+
 
 /* Float the link section to the right */
 .header-right {
@@ -128,5 +124,7 @@ a {
 	margin-top: 20%;
 }
 
-
+.active {
+	color: orangered;
+}
 
