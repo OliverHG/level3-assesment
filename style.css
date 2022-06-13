@@ -29,13 +29,13 @@
 
 /*  GRID OF THREE  */
 .span_3_of_3 {
-	width: 100%;
+	width: 98%;
 }
 .span_2_of_3 {
-	width: 66.1%;
+	width: 65%;
 }
 .span_1_of_3 {
-	width: 32.2%;
+	width: 32%;
 }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
@@ -127,4 +127,5 @@ a {
 .active {
 	color: orangered;
 }
+
 
