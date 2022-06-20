@@ -29,13 +29,13 @@
 
 /*  GRID OF THREE  */
 .span_3_of_3 {
-	width: 98%;
+	width: 100%;
 }
 .span_2_of_3 {
-	width: 65%;
+	width: 66.6%;
 }
 .span_1_of_3 {
-	width: 32%;
+	width: 33.3%;
 }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
@@ -45,17 +45,11 @@
 	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
 }
 
-.headtitle {
-	color: blue;
-}
-
 .logo {
 	margin-left: 5%;
 }
 
-.header {
-	background-color: orangered;
-}
+
 
 .linksdiv {
 	text-align: right;

@@ -3,30 +3,22 @@
   <!-- Footer main -->
   <section class="ft-main">
     <div class="ft-main-item">
-      <h2 class="ft-title">About</h2>
+      <h2 class="ft-title">Pages</h2>
       <ul>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">Customers</a></li>
-        <li><a href="#">Careers</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Cart</a></li>
+       
       </ul>
     </div>
+   
     <div class="ft-main-item">
-      <h2 class="ft-title">Resources</h2>
+      <h2 class="ft-title">Contact Us</h2>
       <ul>
-        <li><a href="#">Docs</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">eBooks</a></li>
-        <li><a href="#">Webinars</a></li>
-      </ul>
-    </div>
-    <div class="ft-main-item">
-      <h2 class="ft-title">Contact</h2>
-      <ul>
-        <li><a href="#">Help</a></li>
-        <li><a href="#">Sales</a></li>
-        <li><a href="#">Advertise</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">More Contacts</a></li>
       </ul>
     </div>
     <div class="ft-main-item">
@@ -54,9 +46,8 @@
   <!-- Footer legal -->
   <section class="ft-legal">
     <ul class="ft-legal-list">
-      <li><a href="#">Terms &amp; Conditions</a></li>
-      <li><a href="#">Privacy Policy</a></li>
-      <li>&copy; 2019 Copyright Nowrap Inc.</li>
+  
+      <li>&copy; 2022 Copyright Oliver Graham.</li>
     </ul>
   </section>
 </footer>
