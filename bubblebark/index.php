@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
   <head>
 
     <meta charset="utf-8">
@@ -38,33 +39,33 @@
     <header class="">
       <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand" href="index.html"><h2>Bubble <em>Bark</em></h2></a>
+          <a class="navbar-brand" href="index.php"><h2>Bubble <em>Bark</em></h2></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home
+                    <a class="nav-link" href="index.php">Home
                       <span class="sr-only">(current)</span>
                     </a>
                 </li> 
 
-                <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                <li class="nav-item"><a class="nav-link" href="products.php">Products</a></li>
 
                 
                     
                     <div class="dropdown-menu">
-                      <a class="dropdown-item" href="about-us.html">About Us</a>
-                      <a class="dropdown-item" href="blog.html">Blog</a>
-                      <a class="dropdown-item" href="testimonials.html">Testimonials</a>
-                      <a class="dropdown-item" href="terms.html">Terms</a>
+                      <a class="dropdown-item" href="about-us.php">About Us</a>
+                      <a class="dropdown-item" href="blog.php">Blog</a>
+                      <a class="dropdown-item" href="testimonials.php">Testimonials</a>
+                      <a class="dropdown-item" href="terms.php">Terms</a>
                     </div>
                 </li>
                 
-                <li class="nav-item"><a class="nav-link" href="checkout.html">Checkout</a></li>
+                <li class="nav-item"><a class="nav-link" href="checkout.php">Checkout</a></li>
 
-                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
             </ul>
           </div>
         </div>
@@ -103,14 +104,14 @@
           <div class="col-md-12">
             <div class="section-heading">
               <h2>Most Popular Products!</h2>
-              <a href="products.html" class="viewcolour">view more <i class=""></i></a>
+              <a href="products.php" class="viewcolour">view more <i class=""></i></a>
             </div>
           </div>
           <div class="col-md-4">
             <div class="product-item">
-              <a href="product-details.html"><img src="assets/images/coc-pro-img.JPEG" alt=""></a>
+              <a href="product-details.php"><img src="assets/images/coc-pro-img.JPEG" alt=""></a>
               <div class="down-content">
-                <a href="product-details.html"><h4>Coconut and Lime</h4></a>
+                <a href="product-details.php"><h4>Coconut and Lime</h4></a>
                  <h6> $15.95</h6>
                 <p>Enjoy this flavour of summer with fresh lime and tropical coconut making for a bright uplifting scent!.</p>
               </div>
@@ -119,9 +120,9 @@
 
           <div class="col-md-4">
             <div class="product-item">
-              <a href="product-details.html"><img src="assets/images/str-pro-img.JPEG" alt=""></a>
+              <a href="product-details.php"><img src="assets/images/str-pro-img.JPEG" alt=""></a>
               <div class="down-content">
-                <a href="product-details.html"><h4>Strawberry Guava</h4></a>
+                <a href="product-details.php"><h4>Strawberry Guava</h4></a>
                 <h6>  $15.95</h6>
                 <p>This mouth-watering, juicy fragrance will have your pup smelling delicious!</p>
               </div>
@@ -130,9 +131,9 @@
 
           <div class="col-md-4">
             <div class="product-item">
-              <a href="product-details.html"><img src="assets/images/man-pro-img.JPEG" alt=""></a>
+              <a href="product-details.php"><img src="assets/images/man-pro-img.JPEG" alt=""></a>
               <div class="down-content">
-                <a href="product-details.html"><h4>Mango Tangerine</h4></a>
+                <a href="product-details.php"><h4>Mango Tangerine</h4></a>
                 <h6>   $15.95</h6>
                 <p>This fruity blend is a summer essential with sweet fresh mango and tangy ripe tangerine leaving your pup smelling divine!</p>
               </div>
@@ -156,7 +157,7 @@
             <div class="left-content">
               <p> We are a small local business run by a group of Year 13 students from Mahurangi College. We have designed a sustainable, eco-friendly and Allergen-free dog soap shampoo to offer to all dogs throughout New Zealand.  </p>
 
-              <a href="about-us.html" class="filled-button">Read More</a>
+              <a href="about-us.php" class="filled-button">Read More</a>
             </div>
           </div>
           <div class="col-md-6">
@@ -184,7 +185,7 @@
                   <h2>Contact us Today!</h2>
                 </div>
                 <div class="col-lg-4 col-md-6 text-right">
-                  <a href="contact.html" class="filled-button">Contact Us</a>
+                  <a href="contact.php" class="filled-button">Contact Us</a>
                 </div>
               </div>
             </div>
@@ -207,3 +208,4 @@
     <script src="assets/js/owl.js"></script>
   </body>
 </html>
+
