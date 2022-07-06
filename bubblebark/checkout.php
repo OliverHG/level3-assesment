@@ -55,9 +55,11 @@
 
                 
                 
-                <li class="nav-item active"><a class="nav-link" href="checkout.php">Checkout</a></li>
+                
 
                 <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
+
+                <li class="nav-item active"><a class="nav-link" href="checkout.php">Cart</a></li>
             </ul>
           </div>
         </div>
@@ -70,8 +72,8 @@
         <div class="row">
           <div class="col-md-12">
             <div class="text-content">
-              <h4>Lorem ipsum dolor sit amet</h4>
-              <h2>Checkout</h2>
+             
+              <h2>Cart</h2>
             </div>
           </div>
         </div>

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Citronella -->
+
   <head>
 
     <meta charset="utf-8">
@@ -70,8 +72,8 @@
         <div class="row">
           <div class="col-md-12">
             <div class="text-content">
-              <h4>Lorem ipsum dolor sit amet</h4>
-              <h2>Product Details</h2>
+              
+              <h2>Citronella</h2>
             </div>
           </div>
         </div>
@@ -161,17 +163,7 @@
 
     
 
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="inner-content">
-              <p>Copyright © 2020 Company Name - Template by: <a href="https://www.phpjabbers.com/">PHPJabbers.com</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+<?php include 'footer.php';?>
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
