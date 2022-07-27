@@ -21,7 +21,32 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/owl.css">
 
-  </head>
+     
+<!-- Testing MySQL -->
+
+     <?php include"setup.php";
+    
+    $sql = "SELECT * FROM pages where pagenum=1";
+    $result = $conn->query($sql);
+
+    if ($result->num_rows > 0) {
+        // output data of each row
+        $row = $result->fetch_assoc();
+        #debugging print_r($row);
+        $title=$row["title1"];
+        $para1=$row["para1"];
+        $image1=$row["image1"];
+      
+    } else {
+        echo "0 results";
+    }
+$conn->close();
+      
+    ?>
+
+<!-- End of MySQL -->
+    
+</head>
 
   <body>
 
@@ -111,9 +136,9 @@
           </div>
           <div class="col-md-4">
             <div class="product-item">
-              <a href="product-details.php"><img src="assets/images/coc-pro-img.JPEG" alt=""></a>
+              <a href="coc.php"><img src="assets/images/coc-pro-img.JPEG" alt=""></a>
               <div class="down-content">
-                <a href="product-details.php"><h4>Coconut and Lime</h4></a>
+                <a href="coc.php"><h4>Coconut and Lime</h4></a>
                  <h6> $15.95</h6>
                 <p>Enjoy this flavour of summer with fresh lime and tropical coconut making for a bright uplifting scent!.</p>
               </div>
@@ -122,9 +147,9 @@
 
           <div class="col-md-4">
             <div class="product-item">
-              <a href="product-details.php"><img src="assets/images/str-pro-img.JPEG" alt=""></a>
+              <a href="str.php"><img src="assets/images/str-pro-img.JPEG" alt=""></a>
               <div class="down-content">
-                <a href="product-details.php"><h4>Strawberry Guava</h4></a>
+                <a href="str.php"><h4>Strawberry Guava</h4></a>
                 <h6>  $15.95</h6>
                 <p>This mouth-watering, juicy fragrance will have your pup smelling delicious!</p>
               </div>
@@ -133,9 +158,9 @@
 
           <div class="col-md-4">
             <div class="product-item">
-              <a href="product-details.php"><img src="assets/images/man-pro-img.JPEG" alt=""></a>
+              <a href="man.php"><img src="assets/images/man-pro-img.JPEG" alt=""></a>
               <div class="down-content">
-                <a href="product-details.php"><h4>Mango Tangerine</h4></a>
+                <a href="man.php"><h4>Mango Tangerine</h4></a>
                 <h6>   $15.95</h6>
                 <p>This fruity blend is a summer essential with sweet fresh mango and tangy ripe tangerine leaving your pup smelling divine!</p>
               </div>
@@ -159,7 +184,7 @@
             <div class="left-content">
               <p> We are a small local business run by a group of Year 13 students from Mahurangi College. We have designed a sustainable, eco-friendly and Allergen-free dog soap shampoo to offer to all dogs throughout New Zealand.  </p>
 
-              <a href="about-us.php" class="filled-button">Read More</a>
+             
             </div>
           </div>
           <div class="col-md-6">
