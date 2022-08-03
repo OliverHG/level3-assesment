@@ -34,11 +34,14 @@
 <body>
 
 
-<?php include 'head.php';?>
 
 
+<div class="latest-products">
+      <div class="container">
 
 <!-- Table Code -->
+
+
 
      <table id="customers">
   <tr>
@@ -60,19 +63,19 @@
     if ($result->num_rows > 0) {
         // output data of each row
 
-        while($row = $result->fetch_assoc()); {
-        #debugging print_r($row);
+        while($row = $result->fetch_assoc()) {
+        print_r($row);
         $id=$row["id"];
-        $title=$row["title"];
+        $title1=$row["title1"];
         $para1=$row["para1"];
         $image1=$row["image1"];
         ?>
 
-
         <tr>
+
     <td> <?php print $id; ?> </td>
 
-    <td> <?php print $title; ?> </td>
+    <td> <?php print $title1; ?> </td>
 
     <td> <?php print $para1; ?> </td>
 
@@ -86,8 +89,9 @@ $conn->close();
     ?>    
 
 <!-- End of PHP -->
-
-
+</table>
+</div>
+</div>
 
 
 
