@@ -65,7 +65,7 @@
 
         while($row = $result->fetch_assoc()) {
         print_r($row);
-        $pageID=$row["id"];
+        $id=$row["id"];
         $title1=$row["title1"];
         $para1=$row["para1"];
         $image1=$row["image1"];
@@ -93,7 +93,24 @@ $conn->close();
 </div>
 </div>
 
-
+<form action="edit_action_page.php" method="post" >
+    <div class="row">
+      <div class="col-25">
+        <label for="pagenum">Page Number</label>
+      </div>
+      <div class="col-75">
+    <?php print $pagenum ?>
+          <input type="hidden" id="pageID" name="pageID" value= "<?php print $pageID ?>">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="title1">Title One</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="title1" name="title1" value="<?php print $title1 ?>">
+      </div>
+    </div>
 
 
 <?php include 'footer.php';?>
