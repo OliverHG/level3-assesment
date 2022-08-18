@@ -14,7 +14,7 @@ session_start();
 	<body>
 		<div class="login">
 			<h1>Login</h1>
-			<form action="http://localhost/phplogin/authenticate.php" method="post">
+			<form action="authenticate.php" method="post">
 				<label for="username">
 					<i class="fas fa-user"></i>
 				</label>
