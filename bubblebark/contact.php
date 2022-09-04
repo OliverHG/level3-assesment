@@ -83,7 +83,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="section-heading">
-              <h2>Our Location on Maps</h2>
+              <h2>Our Pickup Location</h2>
             </div>
           </div>
           <div class="col-md-8">
@@ -94,21 +94,10 @@
   4. Copy only URL and paste it within the src="" field below
 -->
             <div id="map">
-              <iframe src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="330px" frameborder="0" style="border:0" allowfullscreen></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3211.097677875029!2d174.65487821533665!3d-36.40683198003154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0cde8318f9cd4f%3A0xc6cf25f27e38716!2s1-11%20Campbell%20Drive%2C%20Warkworth%200910!5e0!3m2!1sen!2snz!4v1662327888170!5m2!1sen!2snz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="left-content">
-              <h4>About our office</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate nihil eumester consectetur similiqu consectetur.<br><br>Lorem ipsum dolor sit amet, consectetur adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti.</p>
-              <ul class="social-icons">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="#"><i class="fa fa-behance"></i></a></li>
-              </ul>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>
@@ -155,11 +144,7 @@
               </form>
             </div>
           </div>
-          <div class="col-md-4">
-            <img src="assets/images/team_01.jpg" class="img-fluid" alt="">
-
-            <h5 class="text-center" style="margin-top: 15px;">John Doe</h5>
-          </div>
+          
         </div>
       </div>
     </div>

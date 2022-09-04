@@ -119,7 +119,7 @@ Ingredients: Vegetable Glycerin, Lauric Acid, Coconut Oil, Sodium Hydroxide, Coc
               <br> 
 
               <div class="row">
-                
+                 
                 <div class="col-sm-8">
                   <label class="control-label">Quantity</label>
 
