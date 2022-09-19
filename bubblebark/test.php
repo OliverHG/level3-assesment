@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
   <head>
@@ -13,7 +13,7 @@
     <title>Bubble Bark</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="assets/css/fontawesome.css">
@@ -87,7 +87,12 @@
             </div>
           </div>
           <div class="col-md-8">
-
+<!-- How to change your own map point
+  1. Go to Google Maps
+  2. Click on your location point
+  3. Click "Share" and choose "Embed map" tab
+  4. Copy only URL and paste it within the src="" field below
+-->
             <div id="map">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3211.097677875029!2d174.65487821533665!3d-36.40683198003154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0cde8318f9cd4f%3A0xc6cf25f27e38716!2s1-11%20Campbell%20Drive%2C%20Warkworth%200910!5e0!3m2!1sen!2snz!4v1662327888170!5m2!1sen!2snz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
@@ -97,8 +102,6 @@
       </div>
     </div>
 
-
-<!------ Start of the Contact Form ------------->
     
     <div class="send-message">
       <div class="container">
@@ -110,43 +113,42 @@
           </div>
           <div class="col-md-8">
             <div class="contact-form">
-              <form id="contact" action="contaction.php" method="post">
-                <div class="row">
-                  <div class="col-lg-12 col-md-12 col-sm-12">
-                    <fieldset>
-                      <input name="name" type="text" class="form-control" id="name" placeholder="Full Name" required="">
-                    </fieldset>
-                  </div>
-                  <div class="col-lg-12 col-md-12 col-sm-12">
-                    <fieldset>
-                      <input name="email" type="text" class="form-control" id="email" placeholder="E-Mail Address" required="">
-                    </fieldset>
-                  </div>
-                  <div class="col-lg-12 col-md-12 col-sm-12">
-                    <fieldset>
-                      <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject" required="">
-                    </fieldset>
-                  </div>
-                  <div class="col-lg-12">
-                    <fieldset>
-                      <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your Message" required=""></textarea>
-                    </fieldset>
-                  </div>
-                  <div class="col-lg-12">
-                    <fieldset>
-                      <button type="submit" id="form-submit" class="filled-button">Send Message</button>
-                    </fieldset>
-                  </div>
-                </div>
-              </form>
+              
+<form action="testcontact.php" method="post">
+  <div class="elem-group">
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+  </div>
+  <div class="elem-group">
+    <label for="email">Your E-mail</label>
+    <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+  </div>
+  <div class="elem-group">
+    <label for="department-selection">Choose Concerned Department</label>
+    <select id="department-selection" name="concerned_department" required>
+        <option value="">Select a Department</option>
+        <option value="billing">Billing</option>
+        <option value="marketing">Marketing</option>
+        <option value="technical support">Technical Support</option>
+    </select>
+  </div>
+  <div class="elem-group">
+    <label for="title">Reason For Contacting Us</label>
+    <input type="text" id="title" name="email_title" required placeholder="Unable to Reset my Password" pattern=[A-Za-z0-9\s]{8,60}>
+  </div>
+  <div class="elem-group">
+    <label for="message">Write your message</label>
+    <textarea id="message" name="visitor_message" placeholder="Say whatever you want." required></textarea>
+  </div>
+  <button type="submit">Send Message</button>
+</form>
+
             </div>
           </div>
           
         </div>
       </div>
     </div>
-
-<!------ End of the Contact Form ------------->
 
 <?php include 'footer.php';?>
 

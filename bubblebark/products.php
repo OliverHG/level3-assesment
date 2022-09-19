@@ -23,6 +23,10 @@
 
   </head>
 
+<?php ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL); ?>
+
   <body>
 
     <!-- ***** Preloader Start ***** -->
@@ -81,16 +85,46 @@
     <div class="products">
       <div class="container">
         <div class="row">
+          <!-- PHP -->
+
+     <?php include"setup.php";
+    
+    $sql = "SELECT * FROM products";
+    $result = $conn->query($sql);
+
+    if ($result->num_rows > 0) {
+        // output data of each row
+
+        while($row = $result->fetch_assoc()) {
+        print_r($row);
+        $id=$row["id"];
+        $name=$row["name"];
+        $photo=$row["photo"];
+        $price=$row["price"];
+        $description=$row["description"];
+        ?>
+  
+
+<!-- End of PHP -->
           <div class="col-md-4">
             <div class="product-item">
-              <a href="cit.php"><img src="assets/images/cit-pro-img.JPEG" alt=""></a>
+              <a href="cit.php"><img src="assets/images/<?php print $photo; ?>" alt=""></a>
               <div class="down-content">
-                <a href="cit.php"><h4>Citronella</h4></a>
-                <h6><small></small> $15.95</h6>
-                <p>For our farm pups, we have our beautiful citronella scent to keep those pesky bugs away!</p>
+                <a href="cit.php"><h4><?php print $name; ?></h4></a>
+                <h6><small></small> $<?php print $price; ?></h6>
+                <p><?php print $description;?></p>
               </div>
             </div>
           </div>
+
+<?php }
+      
+    } else {
+        echo "0 results";
+    }
+$conn->close();
+      
+    ?>  
 
           <div class="col-md-4">
             <div class="product-item">
