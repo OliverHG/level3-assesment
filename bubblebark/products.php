@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+ 
   <head>
 
     <meta charset="utf-8">
@@ -119,9 +119,7 @@ error_reporting(E_ALL); ?>
 
 <?php }
       
-    } else {
-        echo "0 results";
-    }
+    } 
 $conn->close();
       
     ?>  

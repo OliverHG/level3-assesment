@@ -300,7 +300,7 @@ header .navbar {
 }
 .navbar .navbar-toggler-icon:after {
 	content: '\f0c9';
-	color: #f33f3f;
+	color: #326891;
 	font-size: 18px;
 	line-height: 26px;
 	font-family: 'FontAwesome';
@@ -322,7 +322,7 @@ header .navbar {
 	background-repeat: no-repeat;
 	background-position: center center;
 }
- 
+
 
 .banner-item-02 {
 	padding: 300px 0px;
