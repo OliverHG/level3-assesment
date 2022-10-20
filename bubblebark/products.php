@@ -119,7 +119,9 @@ error_reporting(E_ALL); ?>
 
 <?php }
       
-    } 
+    } else {
+        echo "0 results";
+    }
 $conn->close();
       
     ?>  
