@@ -96,7 +96,7 @@ error_reporting(E_ALL); ?>
         // output data of each row
 
         while($row = $result->fetch_assoc()) {
-        print_r($row);
+        //print_r($row);
         $id=$row["id"];
         $name=$row["name"];
         $photo=$row["photo"];
