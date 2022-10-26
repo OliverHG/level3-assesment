@@ -60,6 +60,8 @@
                 <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
 
                 <li class="nav-item active"><a class="nav-link" href="checkout.php">Cart</a></li>
+
+                <li class="nav-item"><a class="nav-link" href="phplogin/login.php">Log In</a></li>
             </ul>
           </div>
         </div>

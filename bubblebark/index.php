@@ -92,6 +92,8 @@ $conn->close();
 
                 <li class="nav-item"><a class="nav-link" href="checkout.php">Cart</a></li>
 
+                <li class="nav-item"><a class="nav-link" href="phplogin/login.php">Log In</a></li>
+
                 
             </ul>
           </div>
