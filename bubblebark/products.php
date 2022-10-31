@@ -126,51 +126,7 @@ error_reporting(E_ALL); ?>
     }
 $conn->close();
       
-    ?>  
-
-          <div class="col-md-4">
-            <div class="product-item">
-              <a href="coc.php"><img src="assets/images/coc-pro-img.JPEG" alt=""></a>
-              <div class="down-content">
-                <a href="coc.php"><h4>Coconut and Lime</h4></a>
-                <h6><small></small>  $15.95</h6>
-                <p>Enjoy this flavour of summer with fresh lime and tropical coconut making for a bright uplifting scent!</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="product-item">
-              <a href="jap.php"><img src="assets/images/jap-pro-img.JPEG" alt=""></a>
-              <div class="down-content">
-                <a href="jap.php"><h4>Japanese Cherry Blossom</h4></a>
-                <h6><small></small>   $15.95</h6>
-                <p>Be transported to springtime with this magnolia and rose intertwined scent.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="product-item">
-              <a href="man.php"><img src="assets/images/man-pro-img.JPEG" alt=""></a>
-              <div class="down-content">
-                <a href="man.php"><h4>Mango and Tangerine</h4></a>
-                <h6><small></small> $15.95</h6>
-                <p>This fruity blend is a summer essential with sweet fresh mango and tangy ripe tangerine leaving your pup smelling divine!</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="product-item">
-              <a href="str.php"><img src="assets/images/str-pro-img.JPEG" alt=""></a>
-              <div class="down-content">
-                <a href="str.php"><h4>Strawberry Guava</h4></a>
-                <h6><small></small>  $15.95</h6>
-                <p>This mouth-watering, juicy fragrance will have your pup smelling delicious!</p>
-              </div>
-            </div>
-          </div>
+    ?>
 
           
 

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Oct 25, 2022 at 02:09 AM
+-- Generation Time: Oct 31, 2022 at 10:17 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.11
 
@@ -128,7 +128,11 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id`, `name`, `photo`, `price`, `description`) VALUES
-(1, 'Citronella', 'cit-pro-img.JPEG', '15.95', 'For our farm pups, we have our beautiful citronella scent to keep those pesky bugs away!');
+(1, 'Citronella', 'cit-pro-img.JPEG', '15.95', 'For our farm pups, we have our beautiful citronella scent to keep those pesky bugs away!'),
+(2, 'Coconut and Lime', 'coc-pro-img.JPEG', '15.95', 'Enjoy this flavour of summer with fresh lime and tropical coconut making for a bright uplifting scent!'),
+(3, 'Japanese Cherry Blossum', 'jap-pro-img.JPEG', '15.95', 'Be transported to springtime with this magnolia and rose intertwined scent.'),
+(4, 'Mango and Tangerine', 'man-pro-img.JPEG', '15.95', 'This fruity blend is a summer essential with sweet fresh mango and tangy ripe tangerine leaving your pup smelling divine!'),
+(5, 'Strawberry Guava', 'str-pro-img.JPEG', '15.95', 'This mouth-watering, juicy fragrance will have your pup smelling delicious!');
 
 -- --------------------------------------------------------
 
@@ -154,6 +158,33 @@ INSERT INTO `results` (`results_id`, `standardnum`, `title`, `core_id`, `result`
 (2, 91902, 'Database', 1, '', NULL),
 (3, 91903, 'Website', 1, 'E', '2022-02-10'),
 (4, 91909, 'External - Reflection', 1, '', NULL);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `shop`
+--
+
+CREATE TABLE `shop` (
+  `id` int(11) NOT NULL,
+  `name` varchar(200) NOT NULL,
+  `desc` text NOT NULL,
+  `price` decimal(7,2) NOT NULL,
+  `rrp` decimal(7,2) NOT NULL DEFAULT 0.00,
+  `quantity` int(11) NOT NULL,
+  `img` text NOT NULL,
+  `date_added` datetime NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `shop`
+--
+
+INSERT INTO `shop` (`id`, `name`, `desc`, `price`, `rrp`, `quantity`, `img`, `date_added`) VALUES
+(1, 'Smart Watch', '<p>Unique watch made with stainless steel, ideal for those that prefer interative watches.</p>\r\n<h3>Features</h3>\r\n<ul>\r\n<li>Powered by Android with built-in apps.</li>\r\n<li>Adjustable to fit most.</li>\r\n<li>Long battery life, continuous wear for up to 2 days.</li>\r\n<li>Lightweight design, comfort on your wrist.</li>\r\n</ul>', '29.99', '0.00', 10, 'watch.jpg', '2019-03-13 17:55:22'),
+(2, 'Wallet', '', '14.99', '19.99', 34, 'wallet.jpg', '2019-03-13 18:52:49'),
+(3, 'Headphones', '', '19.99', '0.00', 23, 'headphones.jpg', '2019-03-13 18:47:56'),
+(4, 'Digital Camera', '', '69.99', '0.00', 7, 'camera.jpg', '2019-03-13 17:42:04');
 
 --
 -- Indexes for dumped tables
@@ -196,6 +227,12 @@ ALTER TABLE `results`
   ADD PRIMARY KEY (`results_id`);
 
 --
+-- Indexes for table `shop`
+--
+ALTER TABLE `shop`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -227,13 +264,19 @@ ALTER TABLE `pages`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `results`
 --
 ALTER TABLE `results`
   MODIFY `results_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
+-- AUTO_INCREMENT for table `shop`
+--
+ALTER TABLE `shop`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
